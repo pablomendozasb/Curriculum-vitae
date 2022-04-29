@@ -1,0 +1,84 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.flex-container {
+    display: flex;
+}
+
+header {
+    display: flex;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+.personal-picture {
+    width: 160px;
+    border-radius: 50%;
+    padding: 0px;
+    border-color: #f1faee;
+    border-width: 5px;
+    border-style: solid;
+    margin: 20px;
+    height: 180px;
+}
+
+body {
+    background-color: #457b9d;
+}
+
+.flex-container{
+    display: flex;
+    background-color: #f1faee;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: justify; 
+    color: #457b9d;
+}
+
+.flex-container .about-me {
+    padding: 50px;
+    border-radius: 50px;
+    margin-right:0px;
+}
+
+.flex-container .skills {
+    display: block;
+    padding-left: 10px;
+    border-radius: 50px;
+    margin: 100px;
+    margin-left: 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e63946;
+}
+
+footer {
+    background-color: #e63946;
+    border-radius: 50px;
+    padding: 50px;
+    display: flex;
+    color: #f1faee;
+}
+
+footer .contacto-lista li {
+    display: inline;
+    padding: 10px;
+}
+
+footer .contacto-lista li img {
+  width: 20px;
+    
+}
+
+footer .contacto-lista li a:hover {
+    color: #1d3557;
+}
